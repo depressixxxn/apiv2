@@ -1,0 +1,20 @@
+.main {
+  width: 90%;
+  margin: 1em auto;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1em;
+}
+
+.active {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
+.unactive {
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,22 @@
+.errorPage {
+  margin-top: 6em;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 2fr;
+  gap: 1em;
+}
+
+h1 {
+  margin: 0em;
+}
+
+h2 {
+  margin: 0em;
+  font-size: 3em;
+}
+
+.linkPage {
+  color: black;
+  margin: 0em;
+  font-size: 1.8em;
+}

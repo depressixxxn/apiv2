@@ -1,0 +1,27 @@
+.photoPart {
+  margin-top: 2em;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4em;
+}
+.main {
+  display: block;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
+.userName:link {
+  color: #000;
+}
+
+.userName:hover {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+}

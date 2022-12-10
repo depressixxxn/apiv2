@@ -1,0 +1,33 @@
+.infoPart {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.infoPart h1 {
+  font-size: 1.3em;
+  margin-bottom: 0em;
+}
+
+h2 {
+  font-size: 1.1em;
+  margin: 3em 0em 1em;
+}
+.albums {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin-bottom: 0.2em;
+}
+.icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.albumsName:link {
+  color: #000;
+}
+
+.albumsName:hover {
+  color: red;
+}
